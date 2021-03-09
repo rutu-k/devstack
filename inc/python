@@ -195,7 +195,7 @@ function pip_install {
         no_proxy="${no_proxy:-}" \
         PIP_FIND_LINKS=$PIP_FIND_LINKS \
         SETUPTOOLS_SYS_PATH_TECHNIQUE=rewrite \
-        $cmd_pip $upgrade \
+        $cmd_pip $upgrade --ignore-installed \
         $@
     result=$?
 
