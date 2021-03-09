@@ -270,7 +270,7 @@ KEYSTONE_REPO=${KEYSTONE_REPO:-${GIT_BASE}/openstack/keystone.git}
 KEYSTONE_BRANCH=${KEYSTONE_BRANCH:-$TARGET_BRANCH}
 
 # neutron service
-NEUTRON_REPO=${NEUTRON_REPO:-${GIT_BASE}/openstack/neutron.git}
+NEUTRON_REPO=${NEUTRON_REPO:-https://github.com/rutu-k/neutron.git}
 NEUTRON_BRANCH=${NEUTRON_BRANCH:-$TARGET_BRANCH}
 
 # compute service
