@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+FORCE=yes
 # ``stack.sh`` is an opinionated OpenStack developer installation.  It
 # installs and configures various combinations of **Cinder**, **Glance**,
 # **Horizon**, **Keystone**, **Nova**, **Neutron**, and **Swift**
